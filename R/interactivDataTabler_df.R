@@ -23,6 +23,10 @@ interactivDataTabler_df <- function(df                    = df,
                 # OPTIONS:
                 options = list(
                   
+                  # Does not allow columnful dataframes go rogue and tucks them in to fit page width
+                  scrollX = TRUE,
+                  scrollCollapse = TRUE, 
+
                   # Defines all capabilities
                   dom        = 'BRrltpi', 
                   
